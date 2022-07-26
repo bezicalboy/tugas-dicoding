@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="shortcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Bezical Food Delivery</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <!-- navbar + login wrapper -->
+      <nav class="navbar">
+          <div class="row d-flex container">
+            <a href="" class="logo d-flex">
+              <img src="./images/logo.png" alt="" />
+            </a>
+            <ul class="nav-list d-flex">
+              <a href="#beranda">Beranda</a>
+              <a href="#tentang">Tentang</a>
+              <a href="">Makanan</a>
+              <a href="#kontak">Kontak</a>
+              <div class="close">
+                <i class="bx bx-x"></i>
+              </div>
+            </ul>
+          
+            <div class="col d-flex">
+              <form action="">
+                <input type="search" placeholder="Pencarian" />
+                <button class="d-flex"><i class='bx bxs-search'></i></button>
+              </form>
+              <a class="btn signin">Masuk</a>
+            </div>
+            <div class="hamburger d-flex">
+              <i class="bx bx-menu"></i>
+            </div>
+          </div>
+      </nav>
+      <!-- mengikuti navbar -->
+      <div class="home" id="beranda">
+        <div class="row container">
+          <div class="col">
+            <h1>
+              Makanan kamu <br />
+              Akan di antar langsung <br />
+              <span class="color">ke rumah</span>
+            </h1>
+
+            <p>
+              <a href="" class="btn">Jelajahi makanan</a>
+            </p>
+          </div>
+          <div class="col">
+            <img src="./images/delivery-guy.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="wrapper">
+        <form action="" class="form">
+          <h2>Masuk</h2>
+
+          <div class="control">
+            <label for="Email">Masukan Email:</label>
+            <input type="email" placeholder="Masukan Email Kamu" />
+          </div>
+          <div class="control">
+            <label for="Password">Masukan Kata Sandi:</label>
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="checkbox d-flex">
+            <input type="checkbox" />
+            <span>Ingat saya</span>
+          </div>
+          <button class="btn">Sign In</button>
+          <div class="links">
+            <span>Lupa kata sandi? <a href="">Klik disini</a> </span>
+            <span>Belum punya akun? <a href="">Daftar</a> </span>
+          </div>
+        </form>
+
+        <div class="close-form">
+          <i class="bx bx-x"></i>
+        </div>
+      </div>
+    </header>
+    <!-- content main -->
+<main>
+    <div class="section services" id="tentang">
+      <div class="row container">
+        <div class="col">
+          <article>
+          <section>
+          <h2>Kenapa kamu harus memilih makanan disini</h2>
+          <p>
+            karena kami adalah perusahaan makanan yang mementingkan kualitas dan
+            kenyamanan pelanggan
+          </p>
+        </section>
+      </article>
+        </div>
+        <div class="col">
+          <div class="card">
+            <aside>
+            <img src="./images/meat-icon.png" alt="" /></aside>
+            <article>
+            <h3>
+              Pilih <br />
+              Makanan <br />
+              Favorite kamu
+            </h3></article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <aside>
+            <img src="./images/delivery-icon.png" alt="" /></aside>
+            <article>
+            <h3>
+              Dikirim langsung <br />
+              ke depan rumah <br />
+              kamu
+            </h3></article>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <aside>
+            <img src="./images/phone-icon.svg" alt="" /></aside>
+            <article>
+            <h3>
+              Mempunyai aplikasi<br />
+              yang mudah di gunakan<br />
+              di ponsel
+            </h3>
+          </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="seciton about">
+      <div class="row container">
+        <div class="col">
+          <aside>
+          <img src="./images/delivery-guy-2.png" alt="" /></aside>
+        
+        </div>
+        <div class="col">
+          <article>
+            <section>
+          <h2>Lihatlah manfaat yang kami tawarkan untuk Anda</h2>
+          
+          <p>
+            Pelayanan yang baik berarti pelayanan yang ramah dan bersahabat.
+            Seorang pemilik restoran seharusnya tidak hanya berusaha untuk
+            menghindari pelayanan yang buruk,
+          </p>
+        </section>
+          </article>
+          
+        <article>
+          <section>
+          <div class="d-grid">
+            <div class="card">
+              <img src="./images/car-icon.svg" alt="" />
+              <h4>Gratis biaya pengiriman</h4>
+              <span>Untuk pembelian di atas Rp.199.000</span>
+            </div>
+            <div class="card">
+              <img src="./images/dollar-icon.png" alt="" />
+              <h4>Pesanan Telat Sampai</h4>
+              <span>Makanan gratis & uang akan kembali</span>
+            </div>
+            <div class="card">
+              <img src="./images/security-icon.png" alt="" />
+              <h4>Keamanan Pembayaran</h4>
+              <span>100% Keamanan Pembayaran</span>
+            </div>
+            <div class="card">
+              <img src="./images/time-icon.png" alt="" />
+              <h4>Customer Services</h4>
+              <span>Selalu Online 24/7</span>
+            </div>
+          </div>
+        </section>
+      </article>
+        </div>
+      </div>
+    </div>
+    <!-- profile saya -->
+    <div class="section services" id="kontak">
+      <div class="row container">
+        <div class="col">
+          <h2>Muhamad Rico Wijaya</h2>
+          <aside>
+          <article>
+            <strong>
+            Fresh Graduate/Web Developer/Video Editor</strong>
+          </article>
+          <article>
+            Email: ricow3657@gmail.com
+          </article>
+          <article>
+            Portofolio : <a href="https://bezicalboy.github.io">bezicalboy.github.io</a>
+          </article>
+        </aside>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/profile.png" alt="" style="border-radius: 10%;"/>
+          </div>
+        </div>
+      </div>
+    </div>
+</main>
+<!-- footer -->
+    <div class="foot">
+      <footer>
+        <div class="footer-content">
+          <h3>Muhamad Rico Wijaya</h3>
+        </div>   
+        </div>
+      
+      </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
